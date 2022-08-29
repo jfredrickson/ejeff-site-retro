@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Borg on TrueNAS Core | Jeff Fredrickson</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="theme-color" content=""><link rel="stylesheet" href="/css/tailwind.b73e984bd498e3db32fe616777aa67c3f50f2b79d22f95edb2d77c2506dec5e8.min.css"><link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body>
+
+    <div class="m-2"><div class="text-center">
+  <h1>Jeff Fredrickson</h1>
+
+  <a class="" href="/">Home</a>
+  
+    - <a class="" href="/notes/">Notes</a>
+  
+    - <a class="" href="/projects/">Projects</a>
+  
+    - <a class="" href="/contact/">Contact</a>
+  
+  <hr>
+</div><div class="mb-2"><h1>Borg on TrueNAS Core</h1>
+
+  <strong>Backing up data to a Borg server running on TrueNAS Core</strong>
+
+<div>
+  <span class="text-sm">
+    [<span class="italic">Tagged:
+      <a href="/tags/truenas/">truenas</a></span>]
+  </span>
+
+</div>
+</div>
+<main id="main" class="main">
+  <p>This is how I run <a href="https://www.borgbackup.org/">Borg</a> on TrueNAS Core.</p>
+<h2 id="create-a-jail">Create a jail</h2>
+<ol>
+<li>Add a Borg group and user account to TrueNAS Core:
+<ul>
+<li>Username: <code>borg</code></li>
+<li>Group: <code>borg</code></li>
+<li>Disable password: Yes</li>
+<li>Shell: nologin</li>
+</ul>
+</li>
+<li>Create a dataset to store the Borg repositories: <code>/mnt/tank1/backups/borg</code></li>
+<li>Create a new jail named <code>borg</code>
+<ul>
+<li>Give it a static IP address so that other hosts on the network know where to connect for backups</li>
+</ul>
+</li>
+<li>Mount <code>/mnt/tank1/backups/borg</code> to <code>/backups</code> within the jail</li>
+<li>Start the jail</li>
+<li>Open a console to the jail (<code>iocage console borg</code> or via the TrueNAS UI) and carry out the rest of these steps within the jail</li>
+</ol>
+<h2 id="set-up-the-jail">Set up the jail</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Install prerequisites</span>
+</span></span><span class="line"><span class="cl">pkg update
+</span></span><span class="line"><span class="cl">pkg install python38 py38-borgbackup
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Enable the SSH server</span>
+</span></span><span class="line"><span class="cl">sysrc <span class="nv">sshd_enable</span><span class="o">=</span>YES
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Add a Borg group</span>
+</span></span><span class="line"><span class="cl">pw group add borg -g &lt;same GID as the Borg user you created in TrueNAS&gt;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Add a Borg user</span>
+</span></span><span class="line"><span class="cl">pw user add borg -u &lt;same UID as the Borg user you created in TrueNAS&gt; -d /backups -g borg -s /bin/sh
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Give the Borg user ownership of the backup repositories</span>
+</span></span><span class="line"><span class="cl">chown borg:borg /backups
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># For each backup client, add its SSH public key to the Borg user&#39;s authorized_keys</span>
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> &lt;client SSH public key&gt; &gt;&gt; /backups/.ssh/authorized_keys</span></span></code></pre></div><p>Now you should be able to back up to this jail using Borg on each client, using a repo name such as <code>borg@borg:/backups/REPONAME</code>. Don&rsquo;t forget to add SSH public keys for any new clients.</p>
+<h2 id="resources">Resources</h2>
+<ul>
+<li><a href="https://borgbackup.readthedocs.io/en/stable/installation.html">Borg installation</a></li>
+</ul>
+
+</main><div class="text-center">
+  <hr>
+
+  <a href="https://github.com/jfredrickson/jfredrickson.github.io">GitHub</a>
+  / code:
+  <a href="https://github.com/jfredrickson/jfredrickson.github.io/blob/main/LICENSE">AGPLv3</a>
+  / content:
+  <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer">
+    CC BY 4.0
+  </a>
+
+  <a href="https://www.webdesignmuseum.org/old-software/web-browsers/netscape-navigator-2-0"><img class="my-2 mx-auto" src="/images/netscape-2.0.gif"></a>
+</div>
+</div><script type="text/javascript" src="/js/main.js"></script>
+
+  </body>
+</html>
