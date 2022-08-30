@@ -2,6 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ejeff.org/tags/11ty/</loc>
+  </url><url>
     <loc>https://ejeff.org/projects/biggernotes/</loc>
   </url><url>
     <loc>https://ejeff.org/notes/borg-on-truenas-core/</loc>
@@ -9,8 +11,6 @@
     <loc>https://ejeff.org/tags/cgi-bin/</loc>
   </url><url>
     <loc>https://ejeff.org/contact/</loc>
-  </url><url>
-    <loc>https://ejeff.org/tags/express/</loc>
   </url><url>
     <loc>https://ejeff.org/projects/helloqga/</loc>
   </url><url>
@@ -35,8 +35,6 @@
     <loc>https://ejeff.org/notes/macintosh-file-type-and-creator-data/</loc>
   </url><url>
     <loc>https://ejeff.org/projects/minesweeper/</loc>
-  </url><url>
-    <loc>https://ejeff.org/tags/mongodb/</loc>
   </url><url>
     <loc>https://ejeff.org/tags/netscape/</loc>
   </url><url>
