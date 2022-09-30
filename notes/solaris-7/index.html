@@ -59,7 +59,10 @@
 </span></span><span class="line"><span class="cl">mv /etc/rc3.d/S76snmpdx /etc/rc3.d/_disable_S76snmpdx
 </span></span><span class="line"><span class="cl">mv /etc/rc3.d/S77dmi /etc/rc3.d/_disable_77dmi</span></span></code></pre></div><h2 id="backspace-key">Backspace key</h2>
 <p>To get the backspace key to work properly on the console (<code>^H</code> is a literal Ctrl+H; you can get it by typing Ctrl+V Ctrl+H):</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">stty erase ^H</span></span></code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">stty erase ^H</span></span></code></pre></div><h2 id="disable-solaris-user-registration-on-openwindows-or-cde-startup">Disable &ldquo;Solaris User Registration&rdquo; on OpenWindows or CDE startup</h2>
+<p>Every time OpenWindows or CDE starts, it launches the HotJava browser to display a Solaris registration page. To stop this:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="nb">echo</span> <span class="nv">DISABLE</span><span class="o">=</span><span class="m">1</span> &gt; /etc/default/solregis</span></span></code></pre></div><p>Note: See <code>/usr/dt/config/Xsession.d/1000.solregis</code> for the inner workings.</p>
+
 </main><div class="text-center">
   <hr>
   <div>
