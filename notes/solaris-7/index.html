@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Solaris 7 | Jeff Fredrickson</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="theme-color" content=""><link rel="stylesheet" href="/css/tailwind.15d92d2759695faf301741635282d336d0767e7efeef199d879343eaa3415955.min.css"><link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body>
+
+    <div class="m-2"><div class="text-center">
+  <h1>Jeff Fredrickson</h1>
+
+  <a class="" href="/">Home</a>
+  
+    - <a class="" href="/notes/">Notes</a>
+  
+    - <a class="" href="/projects/">Projects</a>
+  
+    - <a class="" href="/contact/">Contact</a>
+  
+  <hr>
+</div><div class="mb-2"><h1>Solaris 7</h1>
+
+  <strong>Random tidbits on configuring Solaris 7</strong>
+
+<div>
+  <span class="text-sm">
+    [<span class="italic">Tagged:
+      <a href="/tags/retrocomputing/">retrocomputing</a></span>]
+  </span>
+
+</div>
+</div>
+<main id="main" class="main">
+  <p>These are various to-do items after a Solaris 7 install, as well as fixes for common issues.</p>
+<h2 id="configure-the-default-domain">Configure the default domain</h2>
+<p>Assuming example.com is the system&rsquo;s domain name:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="nb">echo</span> example.com &gt; /etc/defaultdomain</span></span></code></pre></div><p>Configuring the domain name will address a potential error on startup: <code>starting rpc services: rpcbindkeyserv: failed to generate host's netname when establishing root's key</code></p>
+<h2 id="configure-the-default-gateway">Configure the default gateway</h2>
+<p>Assuming 192.168.1.1 is the gateway:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="nb">echo</span> 192.168.1.1 &gt; /etc/defaultrouter</span></span></code></pre></div><h2 id="specify-an-ip-address-and-hostname">Specify an IP address and hostname</h2>
+<ul>
+<li>Add an entry for your IP address and hostname to <code>/etc/hosts</code></li>
+<li>Ensure that the <code>hosts</code> file entry matches up with what&rsquo;s in <code>/etc/hostname.le0</code> (replace <code>le0</code> with whatever the network interface is)</li>
+</ul>
+<p>Configuring the IP address and hostname will address the potential startup error: <code>configuring network interfaces:ifconfig: foo.example.com: bad address le0.</code></p>
+<h2 id="enable-ntpd">Enable ntpd</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="nb">echo</span> server pool.ntp.org &gt; /etc/inet/ntp.conf
+</span></span><span class="line"><span class="cl">/etc/init.d/xntpd start</span></span></code></pre></div><h2 id="snmp-related-errors-at-boot-time">SNMP related errors at boot time</h2>
+<p>Errors on startup related to <code>snmpXdmid</code>:</p>
+<ul>
+<li><code>Error in Adding Row for Subscription Table Entry</code></li>
+<li><code>Failed to add filter to SP for Event delivery</code></li>
+</ul>
+<p>The workaround is to disable these two services (assuming you don&rsquo;t need SNMP anyway):</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">/etc/rc3.d/S76snmpdx stop
+</span></span><span class="line"><span class="cl">/etc/rc3.d/S77dmi stop
+</span></span><span class="line"><span class="cl">mv /etc/rc3.d/S76snmpdx /etc/rc3.d/_disable_S76snmpdx
+</span></span><span class="line"><span class="cl">mv /etc/rc3.d/S77dmi /etc/rc3.d/_disable_77dmi</span></span></code></pre></div><h2 id="backspace-key">Backspace key</h2>
+<p>To get the backspace key to work properly on the console (<code>^H</code> is a literal Ctrl+H; you can get it by typing Ctrl+V Ctrl+H):</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">stty erase ^H</span></span></code></pre></div>
+</main><div class="text-center">
+  <hr>
+  <div>
+    <a href="https://github.com/jfredrickson/jfredrickson.github.io"><img class="inline" src="/images/github.gif" alt="Fork this on GitHub"></a>
+    <a href="https://www.webdesignmuseum.org/old-software/web-browsers/netscape-navigator-2-0"><img class="inline" src="/images/netscape-2.0.gif" alt="Netscape Now! 2.0"></a>
+  </div>
+  <div>
+    <a href="https://ejeff.org/notes/solaris-7/">Go modern</a>
+  </div>
+</div>
+</div>
+
+  </body>
+</html>

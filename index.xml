@@ -99,6 +99,19 @@ But in order to get a Home Assistant script to send the Roomba to that zone, I n
     </item>
     
     <item>
+      <title>Solaris 7</title>
+      <link>https://ejeff.org/notes/solaris-7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ejeff.org/notes/solaris-7/</guid>
+      <description>These are various to-do items after a Solaris 7 install, as well as fixes for common issues.
+Configure the default domain Assuming example.com is the system&amp;rsquo;s domain name:
+echo example.com &amp;gt; /etc/defaultdomainConfiguring the domain name will address a potential error on startup: starting rpc services: rpcbindkeyserv: failed to generate host&#39;s netname when establishing root&#39;s key
+Configure the default gateway Assuming 192.168.1.1 is the gateway:
+echo 192.168.1.1 &amp;gt; /etc/defaultrouterSpecify an IP address and hostname Add an entry for your IP address and hostname to /etc/hosts Ensure that the hosts file entry matches up with what&amp;rsquo;s in /etc/hostname.</description>
+    </item>
+    
+    <item>
       <title>Tactical Thrift</title>
       <link>https://ejeff.org/projects/tactical-thrift/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
