@@ -1,33 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>retrocomputing on Jeff Fredrickson</title>
+    <title>Retrocomputing on Jeff Fredrickson</title>
     <link>https://ejeff.org/tags/retrocomputing/</link>
-    <description>Recent content in retrocomputing on Jeff Fredrickson</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language><atom:link href="https://ejeff.org/tags/retrocomputing/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content in Retrocomputing on Jeff Fredrickson</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <atom:link href="https://ejeff.org/tags/retrocomputing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Macintosh file type and creator data</title>
       <link>https://ejeff.org/notes/macintosh-file-type-and-creator-data/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://ejeff.org/notes/macintosh-file-type-and-creator-data/</guid>
-      <description>Sometimes when transferring a file from a modern computer to a classic Macintosh (e.g., System 7), its resource fork disappears into the great aether for certain reasons. As a result, the Mac doesn&amp;rsquo;t know what type of file it is and can&amp;rsquo;t open it. Specifically, the OS needs to know the Type and Creator metadata that was stored in the resource fork.
-To correct a missing resource fork, use ResEdit. But what are the correct Type and Creator entries?</description>
+      <description>Sometimes when transferring a file from a modern computer to a classic Macintosh (e.g., System 7), its resource fork disappears into the great aether for certain reasons. As a result, the Mac doesn&amp;rsquo;t know what type of file it is and can&amp;rsquo;t open it. Specifically, the OS needs to know the Type and Creator metadata that was stored in the resource fork.&#xA;To correct a missing resource fork, use ResEdit. But what are the correct Type and Creator entries?</description>
     </item>
-    
     <item>
       <title>Solaris 7</title>
       <link>https://ejeff.org/notes/solaris-7/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://ejeff.org/notes/solaris-7/</guid>
-      <description>These are various to-do items after a Solaris 7 install, as well as fixes for common issues.
-Configure the default domain Assuming example.com is the system&amp;rsquo;s domain name:
-echo example.com &amp;gt; /etc/defaultdomainConfiguring the domain name will address a potential error on startup: starting rpc services: rpcbindkeyserv: failed to generate host&#39;s netname when establishing root&#39;s key
-Configure the default gateway Assuming 192.168.1.1 is the gateway:
-echo 192.168.1.1 &amp;gt; /etc/defaultrouterSpecify an IP address and hostname Add an entry for your IP address and hostname to /etc/hosts Ensure that the hosts file entry matches up with what&amp;rsquo;s in /etc/hostname.</description>
+      <description>These are various to-do items after a Solaris 7 install, as well as fixes for common issues.&#xA;Configure the default domain Assuming example.com is the system&amp;rsquo;s domain name:&#xA;echo example.com &amp;gt; /etc/defaultdomainConfiguring the domain name will address a potential error on startup: starting rpc services: rpcbindkeyserv: failed to generate host&#39;s netname when establishing root&#39;s key&#xA;Configure the default gateway Assuming 192.168.1.1 is the gateway:&#xA;echo 192.168.1.1 &amp;gt; /etc/defaultrouterSpecify an IP address and hostname Add an entry for your IP address and hostname to /etc/hosts Ensure that the hosts file entry matches up with what&amp;rsquo;s in /etc/hostname.</description>
     </item>
-    
   </channel>
 </rss>
