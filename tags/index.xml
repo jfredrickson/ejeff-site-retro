@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Jeff Fredrickson</title>
+    <title>tags on Jeff Fredrickson</title>
     <link>https://ejeff.org/tags/</link>
-    <description>Recent content in Tags on Jeff Fredrickson</description>
+    <description>Recent content in tags on Jeff Fredrickson</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <atom:link href="https://ejeff.org/tags/index.xml" rel="self" type="application/rss+xml" />
@@ -15,133 +15,133 @@
       <description></description>
     </item>
     <item>
-      <title>Cgi-Bin</title>
+      <title>cgi-bin</title>
       <link>https://ejeff.org/tags/cgi-bin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ejeff.org/tags/cgi-bin/</guid>
       <description></description>
     </item>
     <item>
-      <title>Heroku</title>
+      <title>heroku</title>
       <link>https://ejeff.org/tags/heroku/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ejeff.org/tags/heroku/</guid>
       <description></description>
     </item>
     <item>
-      <title>Home-Assistant</title>
+      <title>home-assistant</title>
       <link>https://ejeff.org/tags/home-assistant/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ejeff.org/tags/home-assistant/</guid>
       <description></description>
     </item>
     <item>
-      <title>Html4.01</title>
+      <title>html4.01</title>
       <link>https://ejeff.org/tags/html4.01/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ejeff.org/tags/html4.01/</guid>
       <description></description>
     </item>
     <item>
-      <title>Html5</title>
+      <title>html5</title>
       <link>https://ejeff.org/tags/html5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ejeff.org/tags/html5/</guid>
       <description></description>
     </item>
     <item>
-      <title>Ios</title>
+      <title>ios</title>
       <link>https://ejeff.org/tags/ios/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ejeff.org/tags/ios/</guid>
       <description></description>
     </item>
     <item>
-      <title>Iot</title>
+      <title>iot</title>
       <link>https://ejeff.org/tags/iot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ejeff.org/tags/iot/</guid>
       <description></description>
     </item>
     <item>
-      <title>Javascript</title>
+      <title>javascript</title>
       <link>https://ejeff.org/tags/javascript/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ejeff.org/tags/javascript/</guid>
       <description></description>
     </item>
     <item>
-      <title>Netscape</title>
+      <title>netscape</title>
       <link>https://ejeff.org/tags/netscape/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ejeff.org/tags/netscape/</guid>
       <description></description>
     </item>
     <item>
-      <title>Nodejs</title>
+      <title>nodejs</title>
       <link>https://ejeff.org/tags/nodejs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ejeff.org/tags/nodejs/</guid>
       <description></description>
     </item>
     <item>
-      <title>Postgresql</title>
+      <title>postgresql</title>
       <link>https://ejeff.org/tags/postgresql/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ejeff.org/tags/postgresql/</guid>
       <description></description>
     </item>
     <item>
-      <title>Responsive-Design</title>
+      <title>responsive-design</title>
       <link>https://ejeff.org/tags/responsive-design/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ejeff.org/tags/responsive-design/</guid>
       <description></description>
     </item>
     <item>
-      <title>Retrocomputing</title>
+      <title>retrocomputing</title>
       <link>https://ejeff.org/tags/retrocomputing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ejeff.org/tags/retrocomputing/</guid>
       <description></description>
     </item>
     <item>
-      <title>Ruby</title>
+      <title>ruby</title>
       <link>https://ejeff.org/tags/ruby/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ejeff.org/tags/ruby/</guid>
       <description></description>
     </item>
     <item>
-      <title>Ruby-on-Rails</title>
+      <title>ruby-on-rails</title>
       <link>https://ejeff.org/tags/ruby-on-rails/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ejeff.org/tags/ruby-on-rails/</guid>
       <description></description>
     </item>
     <item>
-      <title>Smart-Home</title>
+      <title>smart-home</title>
       <link>https://ejeff.org/tags/smart-home/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ejeff.org/tags/smart-home/</guid>
       <description></description>
     </item>
     <item>
-      <title>Swift</title>
+      <title>swift</title>
       <link>https://ejeff.org/tags/swift/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ejeff.org/tags/swift/</guid>
       <description></description>
     </item>
     <item>
-      <title>Swiftui</title>
+      <title>swiftui</title>
       <link>https://ejeff.org/tags/swiftui/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ejeff.org/tags/swiftui/</guid>
       <description></description>
     </item>
     <item>
-      <title>Truenas</title>
+      <title>truenas</title>
       <link>https://ejeff.org/tags/truenas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ejeff.org/tags/truenas/</guid>
