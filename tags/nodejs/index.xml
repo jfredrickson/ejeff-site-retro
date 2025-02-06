@@ -12,7 +12,7 @@
       <link>https://ejeff.org/projects/tactical-thrift/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ejeff.org/projects/tactical-thrift/</guid>
-      <description>An Express web app demonstrating a Thrift Savings Plan investment model based on Mebane Faber&amp;rsquo;s paper, A Quantitative Approach to Tactical Asset Allocation. Faber describes an investment system that is based on comparing the current price of a fund to the 10-month simple moving average (SMA) of that fund, and making a buy/sell decision based on that comparison.&#xA;The app pulls fund data from the Thrift Savings Plan website and computes an investment position.</description>
+      <description>&lt;p&gt;An Express web app demonstrating a &lt;a href=&#34;https://www.tsp.gov/&#34;&gt;Thrift Savings Plan&lt;/a&gt; investment model based on Mebane Faber&amp;rsquo;s paper, &lt;a href=&#34;https://papers.ssrn.com/sol3/papers.cfm?abstract_id=962461&#34;&gt;A Quantitative Approach to Tactical Asset Allocation&lt;/a&gt;. Faber describes an investment system that is based on comparing the current price of a fund to the 10-month simple moving average (SMA) of that fund, and making a buy/sell decision based on that comparison.&lt;/p&gt;&#xA;&lt;p&gt;The app pulls fund data from the Thrift Savings Plan website and computes an investment position.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

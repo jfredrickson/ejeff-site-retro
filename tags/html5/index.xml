@@ -12,14 +12,14 @@
       <link>https://ejeff.org/projects/helloqga/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ejeff.org/projects/helloqga/</guid>
-      <description>Those of you who have used TDDs in the 80s and 90s will appreciate this.&#xA;One day, I noticed that the domain registrar Freenom was offering free .ga (Gabon) domain registration. So of course I had to do something TDD/TTY related, and registered helloq.ga for this project. Now the .ga TLD is no longer available for registration, but you can still view an archive of the site!&#xA;Hint: After loading the website, start typing.</description>
+      <description>&lt;p&gt;Those of you who have used &lt;a href=&#34;https://en.wikipedia.org/wiki/Telecommunications_device_for_the_deaf&#34;&gt;TDDs&lt;/a&gt; in the 80s and 90s will appreciate this.&lt;/p&gt;&#xA;&lt;p&gt;One day, I noticed that the domain registrar Freenom was offering free &lt;code&gt;.ga&lt;/code&gt; (Gabon) domain registration. So of course I had to do something TDD/TTY related, and registered &lt;code&gt;helloq.ga&lt;/code&gt; for this project. Now the &lt;code&gt;.ga&lt;/code&gt; TLD is no longer available for registration, but you can still view an archive of the site!&lt;/p&gt;&#xA;&lt;p&gt;Hint: After loading &lt;a href=&#34;https://jfredrickson.github.io/helloqga/&#34;&gt;the website&lt;/a&gt;, start typing.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Minesweeper</title>
       <link>https://ejeff.org/projects/minesweeper/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ejeff.org/projects/minesweeper/</guid>
-      <description>I wanted to learn more about the HTML5 canvas when it was new, so I threw together this game over the weekend to utilize it. The game has some basic graphics, but no sprites or images were necessary; all graphics are drawn using HTML5 canvas 2D graphics methods.&#xA;The UI and game logic are completely separate, so it would be trivial to develop front ends for this game other than the HTML5 canvas version.</description>
+      <description>&lt;p&gt;I wanted to learn more about the HTML5 &lt;code&gt;canvas&lt;/code&gt; when it was new, so I threw together this game over the weekend to utilize it. The game has some basic graphics, but no sprites or images were necessary; all graphics are drawn using HTML5 canvas 2D graphics methods.&lt;/p&gt;&#xA;&lt;p&gt;The UI and game logic are completely separate, so it would be trivial to develop front ends for this game other than the HTML5 canvas version.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

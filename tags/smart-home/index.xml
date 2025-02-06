@@ -12,7 +12,7 @@
       <link>https://ejeff.org/notes/roomba-zones-in-home-assistant/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ejeff.org/notes/roomba-zones-in-home-assistant/</guid>
-      <description>There doesn&amp;rsquo;t appear to be a straightforward way to have Home Assistant work with custom Roomba zones. It takes some legwork.&#xA;I&amp;rsquo;ve designated a Roomba zone around our Litter-Robot with the intention of having the vacuum clean up any stray litter after one of the cats uses the litter box.&#xA;But in order to get a Home Assistant script to send the Roomba to that zone, I need to know the Roomba&amp;rsquo;s pmap_id and region_id fields from the iRobot API.</description>
+      <description>&lt;p&gt;There doesn&amp;rsquo;t appear to be a straightforward way to have Home Assistant work with custom Roomba zones. It takes some legwork.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve designated a Roomba zone around our &lt;a href=&#34;https://www.litter-robot.com/&#34;&gt;Litter-Robot&lt;/a&gt; with the intention of having the vacuum clean up any stray litter after one of the cats uses the litter box.&lt;/p&gt;&#xA;&lt;p&gt;But in order to get a Home Assistant script to send the Roomba to that zone, I need to know the Roomba&amp;rsquo;s &lt;code&gt;pmap_id&lt;/code&gt; and &lt;code&gt;region_id&lt;/code&gt; fields from the iRobot API. Fortunately, &lt;a href=&#34;https://github.com/koalazak/dorita980&#34;&gt;dorita980&lt;/a&gt; makes this easy by providing a JavaScript wrapper around the iRobot API.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

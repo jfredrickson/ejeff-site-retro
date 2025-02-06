@@ -12,42 +12,42 @@
       <link>https://ejeff.org/projects/biggernotes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ejeff.org/projects/biggernotes/</guid>
-      <description>As a Deaf person, I often use my phone to type out what I want to say to someone. I noticed that some folks were having a hard time reading the small text of Apple&amp;rsquo;s Notes app. The Notes app has an option to format text as a title to make it bigger; however, the app resets the text to normal after hitting Return, forcing me to reformat every line I type.</description>
+      <description>&lt;p&gt;As a Deaf person, I often use my phone to type out what I want to say to someone. I noticed that some folks were having a hard time reading the small text of Apple&amp;rsquo;s Notes app. The Notes app has an option to format text as a title to make it bigger; however, the app resets the text to normal after hitting Return, forcing me to reformat every line I type. And even the title-formatted text wasn&amp;rsquo;t big enough in some cases.&lt;/p&gt;</description>
     </item>
     <item>
       <title>HELLO Q GA</title>
       <link>https://ejeff.org/projects/helloqga/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ejeff.org/projects/helloqga/</guid>
-      <description>Those of you who have used TDDs in the 80s and 90s will appreciate this.&#xA;One day, I noticed that the domain registrar Freenom was offering free .ga (Gabon) domain registration. So of course I had to do something TDD/TTY related, and registered helloq.ga for this project. Now the .ga TLD is no longer available for registration, but you can still view an archive of the site!&#xA;Hint: After loading the website, start typing.</description>
+      <description>&lt;p&gt;Those of you who have used &lt;a href=&#34;https://en.wikipedia.org/wiki/Telecommunications_device_for_the_deaf&#34;&gt;TDDs&lt;/a&gt; in the 80s and 90s will appreciate this.&lt;/p&gt;&#xA;&lt;p&gt;One day, I noticed that the domain registrar Freenom was offering free &lt;code&gt;.ga&lt;/code&gt; (Gabon) domain registration. So of course I had to do something TDD/TTY related, and registered &lt;code&gt;helloq.ga&lt;/code&gt; for this project. Now the &lt;code&gt;.ga&lt;/code&gt; TLD is no longer available for registration, but you can still view an archive of the site!&lt;/p&gt;&#xA;&lt;p&gt;Hint: After loading &lt;a href=&#34;https://jfredrickson.github.io/helloqga/&#34;&gt;the website&lt;/a&gt;, start typing.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Minesweeper</title>
       <link>https://ejeff.org/projects/minesweeper/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ejeff.org/projects/minesweeper/</guid>
-      <description>I wanted to learn more about the HTML5 canvas when it was new, so I threw together this game over the weekend to utilize it. The game has some basic graphics, but no sprites or images were necessary; all graphics are drawn using HTML5 canvas 2D graphics methods.&#xA;The UI and game logic are completely separate, so it would be trivial to develop front ends for this game other than the HTML5 canvas version.</description>
+      <description>&lt;p&gt;I wanted to learn more about the HTML5 &lt;code&gt;canvas&lt;/code&gt; when it was new, so I threw together this game over the weekend to utilize it. The game has some basic graphics, but no sprites or images were necessary; all graphics are drawn using HTML5 canvas 2D graphics methods.&lt;/p&gt;&#xA;&lt;p&gt;The UI and game logic are completely separate, so it would be trivial to develop front ends for this game other than the HTML5 canvas version.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Operation: Miles for Smiles</title>
       <link>https://ejeff.org/projects/milesforsmiles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ejeff.org/projects/milesforsmiles/</guid>
-      <description>Operation: Miles for Smiles was a fundraising drive in which a group of bicyclists toured from California to Florida to raise funds for charity. They needed a website to promote their project and to allow donors and the public to track their progress across the country in real time.&#xA;The web team consisted of Scott Madsen and me. He designed the website&amp;rsquo;s look-and-feel, while I turned his design into HTML and wrote the back end.</description>
+      <description>&lt;p&gt;Operation: Miles for Smiles was a fundraising drive in which a group of bicyclists toured from California to Florida to raise funds for charity. They needed a website to promote their project and to allow donors and the public to track their progress across the country in real time.&lt;/p&gt;&#xA;&lt;p&gt;The web team consisted of &lt;a href=&#34;http://www.sallmadsen.com/&#34;&gt;Scott Madsen&lt;/a&gt; and me. He designed the website&amp;rsquo;s look-and-feel, while I turned his design into HTML and wrote the back end.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tactical Thrift</title>
       <link>https://ejeff.org/projects/tactical-thrift/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ejeff.org/projects/tactical-thrift/</guid>
-      <description>An Express web app demonstrating a Thrift Savings Plan investment model based on Mebane Faber&amp;rsquo;s paper, A Quantitative Approach to Tactical Asset Allocation. Faber describes an investment system that is based on comparing the current price of a fund to the 10-month simple moving average (SMA) of that fund, and making a buy/sell decision based on that comparison.&#xA;The app pulls fund data from the Thrift Savings Plan website and computes an investment position.</description>
+      <description>&lt;p&gt;An Express web app demonstrating a &lt;a href=&#34;https://www.tsp.gov/&#34;&gt;Thrift Savings Plan&lt;/a&gt; investment model based on Mebane Faber&amp;rsquo;s paper, &lt;a href=&#34;https://papers.ssrn.com/sol3/papers.cfm?abstract_id=962461&#34;&gt;A Quantitative Approach to Tactical Asset Allocation&lt;/a&gt;. Faber describes an investment system that is based on comparing the current price of a fund to the 10-month simple moving average (SMA) of that fund, and making a buy/sell decision based on that comparison.&lt;/p&gt;&#xA;&lt;p&gt;The app pulls fund data from the Thrift Savings Plan website and computes an investment position.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ukiahi</title>
       <link>https://ejeff.org/projects/ukiahi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ejeff.org/projects/ukiahi/</guid>
-      <description>I dusted off an old but intact copy of the Ukiah High School website that I found on the Internet Archive. A fellow student and I built this website back in 1997 when we were seniors.&#xA;Check out the source code for an awesome trip to the past. A &amp;ldquo;Netscape Comm. Corp.&amp;rdquo; DTD, check. Uppercase HTML tags, check. No CSS, check. Old school textured background, check. Visit counter, check!</description>
+      <description>&lt;p&gt;I dusted off an old but intact copy of the Ukiah High School website that I found on the Internet Archive. A fellow student and I built this website back in 1997 when we were seniors.&lt;/p&gt;&#xA;&lt;p&gt;Check out the source code for an awesome trip to the past. A &amp;ldquo;Netscape Comm. Corp.&amp;rdquo; DTD, check. Uppercase HTML tags, check. No CSS, check. Old school textured background, check. Visit counter, check!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
