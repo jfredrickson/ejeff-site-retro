@@ -33,7 +33,7 @@
       <link>https://ejeff.org/projects/helloqga/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ejeff.org/projects/helloqga/</guid>
-      <description>Those of you who have used TDDs in the 80s and 90s will appreciate this.&#xA;One day, I noticed that the domain registrar Freenom was offering free .ga (Gabon) domain registration. So of course I had to do something TDD related.&#xA;Hint: After loading the website, start typing.</description>
+      <description>Those of you who have used TDDs in the 80s and 90s will appreciate this.&#xA;One day, I noticed that the domain registrar Freenom was offering free .ga (Gabon) domain registration. So of course I had to do something TDD/TTY related, and registered helloq.ga for this project. Now the .ga TLD is no longer available for registration, but you can still view an archive of the site!&#xA;Hint: After loading the website, start typing.</description>
     </item>
     <item>
       <title>Let&#39;s Encrypt on TrueNAS Core</title>
