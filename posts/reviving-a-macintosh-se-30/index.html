@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Reviving a Macintosh SE/30 | Jeff Fredrickson</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="">
+
+    <script defer data-domain="retro.ejeff.org" src="https://plausible.tensouth.net/js/script.js"></script><link rel="stylesheet" href="/css/tailwind.4f11daf5b75585773fcb58776cff9b472b96ebf37cf9fdf691677e4991c0523f.min.css"><link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body>
+
+    <div class="m-2"><div class="text-center">
+  <h1>Jeff Fredrickson</h1>
+
+  <a class="" href="/">Home</a>
+  
+    - <a class="" href="/notes/">Notes</a>
+  
+    - <a class="" href="/posts/">Posts</a>
+  
+    - <a class="" href="/projects/">Projects</a>
+  
+    - <a class="" href="/contact/">Contact</a>
+  
+  <hr>
+</div><div class="mb-2"><h1>Reviving a Macintosh SE/30</h1>
+
+
+    <div><small>
+  Last update February 7, 2025
+  <a href="https://github.com/jfredrickson/jfredrickson.github.io/commit/6a837c8336d072114650c0cc3416e6b593c23b83">6a837c8</a>
+</small>
+  <span class="text-sm">
+    [<span class="italic">Tagged:
+      <a href="/tags/retrocomputing/">retrocomputing</a></span>]
+  </span>
+
+</div>
+  
+</div>
+<main id="main" class="main">
+  <p><a href="/posts/a-new-used-macintosh-se-30">Back in February, I acquired a Macintosh SE/30</a>. It was in need of a bit of work, and I finally got around to making all the repairs.</p>
+<p>The first order of business was to use some cyanoacrylate glue to repair the crack in the front of the case. That had to be the first step because I didn&rsquo;t want the crack to spread any further.</p>
+<p>The next step was to desolder all the electrolytic capacitors from the logic board and replace them with new ones, using tantalum capacitors where possible. On the analog board, I recapped with newer electrolytic capacitors. Fortunately, there are so many online resources for this type of repair, like <a href="https://recapamac.com.au/macintosh-se-30/">Recap-a-Mac</a>.</p>
+<p>The only stumbling block I encountered was one of the capacitors on the analog board. C15 is a 3.9uF 35V bipolar capacitor, which I couldn&rsquo;t find anywhere.</p>
+<p><img src="se30-analog-capacitor-original.jpg" alt="A capacitor on the Macintosh SE/30 analog board."></p>
+<p>I ended up ordering a film capacitor from Mouser that had close enough specs. Unfortunately, the leads were too short, so I had to solder a wire to one leg of the capacitor to get it to fit.</p>
+<p><img src="se30-analog-capacitor-replacement.jpg" alt="A capacitor on the Macintosh SE/30 analog board with a wire soldered to one leg."></p>
+<p>The rest of the recapping was pretty straightforward. I desoldered each capacitor, cleaned the solder pads, and installed the its replacement.</p>
+<p>Capacitors removed:</p>
+<p><img src="se30-logic-board-capacitors-removed.jpg" alt="A Macintosh SE/30 logic board with all the capacitors removed."></p>
+<p>New capacitors installed:</p>
+<p><img src="se30-logic-board-new-capacitors.jpg" alt="A Macintosh SE/30 logic board with all the new capacitors installed."></p>
+<p>Well, it&rsquo;s not the best solder job but it&rsquo;ll do the trick:</p>
+<p><img src="se30-new-capacitor-closeup.jpg" alt="A closeup of a solder joint on a Macintosh SE/30 logic board."></p>
+<p>After soldering in all the new capacitors, I gave the logic and analog boards a good scrubbing and rinsing with 99.9% isopropyl alcohol to get all the flux out and left them to dry overnight.</p>
+<p>All the old capacitors:</p>
+<p><img src="se30-old-capacitors.jpg" alt="A pile of old capacitors."></p>
+<p>I also encountered a molex connector that was burnt out.</p>
+<p><img src="se30-burnt-molex.jpg" alt="A molex connector with two of its leads burnt out."></p>
+<p>It was difficult to remove that burnt connector because it seemed to have fused to the wire on the inside. I didn&rsquo;t want to cut off too much of the wire since it was already fairly short. After a lot of prying, I finally got it off and was able to install a new connector.</p>
+<p><img src="se30-new-molex.jpg" alt="A new molex connector."></p>
+<p>With everything in place, I started up the machine and it booted smoothly into System 7.1! The screen now looked much better, albeit with the picture looking slightly warped. I adjusted the screen a little bit by manipulating the yoke, but I didn&rsquo;t want to go too far since it&rsquo;s a delicate piece of equipment and there was a good chance I could make it worse.</p>
+<p><img src="se30-flying-toasters.jpg" alt="The screen of a Macintosh SE/30 showing flying toasters."></p>
+
+</main><div class="text-center">
+  <hr>
+  <div>
+    <a href="https://github.com/jfredrickson/jfredrickson.github.io"><img class="inline" src="/images/github.gif" alt="Fork this on GitHub"></a>
+    <a href="https://www.webdesignmuseum.org/old-software/web-browsers/netscape-navigator-2-0"><img class="inline" src="/images/netscape-2.0.gif" alt="Netscape Now! 2.0"></a>
+  </div>
+  <div>
+    <a href="https://ejeff.org/posts/reviving-a-macintosh-se-30/">Go modern</a>
+  </div>
+</div>
+</div>
+
+  </body>
+</html>

@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ejeff.org/tags/retrocomputing/</loc>
+    <lastmod>2025-02-07T12:05:59-07:00</lastmod>
+  </url><url>
+    <loc>https://ejeff.org/posts/some-upgrades-for-the-se-30/</loc>
+    <lastmod>2025-02-07T12:05:59-07:00</lastmod>
+  </url><url>
+    <loc>https://ejeff.org/tags/</loc>
+    <lastmod>2025-02-07T12:05:59-07:00</lastmod>
+  </url><url>
+    <loc>https://ejeff.org/posts/reviving-a-macintosh-se-30/</loc>
+    <lastmod>2025-02-07T12:05:59-07:00</lastmod>
+  </url><url>
+    <loc>https://ejeff.org/posts/a-new-used-macintosh-se-30/</loc>
+    <lastmod>2025-02-07T12:05:59-07:00</lastmod>
+  </url><url>
     <loc>https://ejeff.org/tags/11ty/</loc>
     <lastmod>2022-08-30T13:20:48-06:00</lastmod>
   </url><url>
@@ -68,14 +83,14 @@
     <loc>https://ejeff.org/tags/postgresql/</loc>
     <lastmod>2022-07-08T15:16:10-06:00</lastmod>
   </url><url>
+    <loc>https://ejeff.org/posts/</loc>
+    <lastmod>2025-02-07T12:05:59-07:00</lastmod>
+  </url><url>
     <loc>https://ejeff.org/projects/</loc>
     <lastmod>2022-07-21T18:12:16-06:00</lastmod>
   </url><url>
     <loc>https://ejeff.org/tags/responsive-design/</loc>
     <lastmod>2022-07-08T15:16:10-06:00</lastmod>
-  </url><url>
-    <loc>https://ejeff.org/tags/retrocomputing/</loc>
-    <lastmod>2022-10-19T15:40:54-06:00</lastmod>
   </url><url>
     <loc>https://ejeff.org/notes/roomba-zones-in-home-assistant/</loc>
     <lastmod>2022-08-05T23:05:28-06:00</lastmod>
@@ -100,9 +115,6 @@
   </url><url>
     <loc>https://ejeff.org/projects/tactical-thrift/</loc>
     <lastmod>2022-08-30T13:20:48-06:00</lastmod>
-  </url><url>
-    <loc>https://ejeff.org/tags/</loc>
-    <lastmod>2025-02-05T18:01:05-07:00</lastmod>
   </url><url>
     <loc>https://ejeff.org/tags/truenas/</loc>
     <lastmod>2022-08-15T16:12:01-06:00</lastmod>

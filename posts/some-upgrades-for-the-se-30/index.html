@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Some upgrades for the SE/30 | Jeff Fredrickson</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="">
+
+    <script defer data-domain="retro.ejeff.org" src="https://plausible.tensouth.net/js/script.js"></script><link rel="stylesheet" href="/css/tailwind.4f11daf5b75585773fcb58776cff9b472b96ebf37cf9fdf691677e4991c0523f.min.css"><link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body>
+
+    <div class="m-2"><div class="text-center">
+  <h1>Jeff Fredrickson</h1>
+
+  <a class="" href="/">Home</a>
+  
+    - <a class="" href="/notes/">Notes</a>
+  
+    - <a class="" href="/posts/">Posts</a>
+  
+    - <a class="" href="/projects/">Projects</a>
+  
+    - <a class="" href="/contact/">Contact</a>
+  
+  <hr>
+</div><div class="mb-2"><h1>Some upgrades for the SE/30</h1>
+
+
+    <div><small>
+  Last update February 7, 2025
+  <a href="https://github.com/jfredrickson/jfredrickson.github.io/commit/6a837c8336d072114650c0cc3416e6b593c23b83">6a837c8</a>
+</small>
+  <span class="text-sm">
+    [<span class="italic">Tagged:
+      <a href="/tags/retrocomputing/">retrocomputing</a></span>]
+  </span>
+
+</div>
+  
+</div>
+<main id="main" class="main">
+  <p>After <a href="/posts/reviving-a-macintosh-se-30">getting the SE/30 up and running</a> with some new parts, I added in a few more upgrades.</p>
+<p>To begin with, I cleaned off the adhesive residue from the front of the case. This was some serious residue, very chunky and difficult to remove. It took a good amount of Goo Gone and elbow grease, but now there&rsquo;s no sign of it. I considered <a href="https://en.wikipedia.org/wiki/Retrobright">retrobriting</a> the case, but decided against it since the process can make the plastic more brittle, and it seemed fragile enough already.</p>
+<p>The next thing I did was install a more modern battery: a CR2032 coin cell. I attached ring terminals to the battery holder.</p>
+<p><img src="se30-new-battery.jpg" alt="A CR2032 coin cell installed in a battery holder with ring terminals attached."></p>
+<p>Next, I 3D printed a spacer to keep the ring terminals in place. It&rsquo;s a bit of a hack, but it works for now. I might figure out something more elegant later.</p>
+<p><img src="se30-new-battery-and-macsimm.jpg" alt="The battery holder installed in the logic board, with a GGLABS MACSIMM installed in the ROM SIMM slot."></p>
+<p>At the same time, I installed a <a href="https://gglabs.us/node/2019">GGLABS MACSIMM</a> to replace the old ROM SIMM. The original ROM of the SE/30 limits the Mac to 8MB of RAM due to old 24-bit code, even though the CPU and OS were capable of addressing much more RAM. The MACSIMM contains a fully compatible drop-in replacement for the original ROM that enables 32-bit addressing. With eight SIMM slots on the logic board, the SE/30 is actually capable of handling up to 128MB of RAM.</p>
+<p>The machine originally came with four 1MB SIMMs installed, giving me a total of 5MB of RAM (including the 1MB soldered on the logic board). In 24-bit mode, it seems that the OS only uses the installed SIMMs, with the soldered 1MB being reserved for some things like video or ROM shadowing.</p>
+<p><img src="se30-system71-4mb.jpg" alt="The &lsquo;About This Macintosh&rsquo; window, showing System 7.1 running with 4MB of RAM."></p>
+<p>After the ROM upgrade (and an upgrade to System 7.5.3 as well), I filled the remaining four SIMM slots with 16MB SIMMs, giving me a total of 69MB RAM.</p>
+<p><img src="se30-system753-69mb.jpg" alt="The &lsquo;About This Macintosh&rsquo; window, showing System 7.5.3 running with 69MB of RAM."></p>
+<p>I still have to address the floppy drive issues, and I want to replace the hard drive with something that&rsquo;ll let me use a SD or microSD card for more reliability.</p>
+
+</main><div class="text-center">
+  <hr>
+  <div>
+    <a href="https://github.com/jfredrickson/jfredrickson.github.io"><img class="inline" src="/images/github.gif" alt="Fork this on GitHub"></a>
+    <a href="https://www.webdesignmuseum.org/old-software/web-browsers/netscape-navigator-2-0"><img class="inline" src="/images/netscape-2.0.gif" alt="Netscape Now! 2.0"></a>
+  </div>
+  <div>
+    <a href="https://ejeff.org/posts/some-upgrades-for-the-se-30/">Go modern</a>
+  </div>
+</div>
+</div>
+
+  </body>
+</html>

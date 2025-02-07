@@ -8,6 +8,27 @@
     <language>en-US</language>
     <atom:link href="https://ejeff.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Some upgrades for the SE/30</title>
+      <link>https://ejeff.org/posts/some-upgrades-for-the-se-30/</link>
+      <pubDate>Sat, 03 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://ejeff.org/posts/some-upgrades-for-the-se-30/</guid>
+      <description>&lt;p&gt;After &lt;a href=&#34;https://ejeff.org/posts/reviving-a-macintosh-se-30&#34;&gt;getting the SE/30 up and running&lt;/a&gt; with some new parts, I added in a few more upgrades.&lt;/p&gt;&#xA;&lt;p&gt;To begin with, I cleaned off the adhesive residue from the front of the case. This was some serious residue, very chunky and difficult to remove. It took a good amount of Goo Gone and elbow grease, but now there&amp;rsquo;s no sign of it. I considered &lt;a href=&#34;https://en.wikipedia.org/wiki/Retrobright&#34;&gt;retrobriting&lt;/a&gt; the case, but decided against it since the process can make the plastic more brittle, and it seemed fragile enough already.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Reviving a Macintosh SE/30</title>
+      <link>https://ejeff.org/posts/reviving-a-macintosh-se-30/</link>
+      <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://ejeff.org/posts/reviving-a-macintosh-se-30/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ejeff.org/posts/a-new-used-macintosh-se-30&#34;&gt;Back in February, I acquired a Macintosh SE/30&lt;/a&gt;. It was in need of a bit of work, and I finally got around to making all the repairs.&lt;/p&gt;&#xA;&lt;p&gt;The first order of business was to use some cyanoacrylate glue to repair the crack in the front of the case. That had to be the first step because I didn&amp;rsquo;t want the crack to spread any further.&lt;/p&gt;&#xA;&lt;p&gt;The next step was to desolder all the electrolytic capacitors from the logic board and replace them with new ones, using tantalum capacitors where possible. On the analog board, I recapped with newer electrolytic capacitors. Fortunately, there are so many online resources for this type of repair, like &lt;a href=&#34;https://recapamac.com.au/macintosh-se-30/&#34;&gt;Recap-a-Mac&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A new (used) Macintosh SE/30</title>
+      <link>https://ejeff.org/posts/a-new-used-macintosh-se-30/</link>
+      <pubDate>Mon, 28 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://ejeff.org/posts/a-new-used-macintosh-se-30/</guid>
+      <description>&lt;p&gt;I just picked up a Macintosh SE/30 from eBay.&lt;/p&gt;&#xA;&lt;p&gt;Back in the 80s and 90s, I was a PC user. I found the compact Macs to be so constrained in terms of expansion and screen size that I never had any interest in having one. Fast forward to now, and I appreciate their design and engineering. I actually owned a SE/30 back in the early 2000s when I was able to pick one up for cheap. I ran NetBSD on it for a while and had some fun with it before I eventually sold it. Back then, these little machines were plentiful, cheap, and largely intact.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Bigger Notes</title>
       <link>https://ejeff.org/projects/biggernotes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
